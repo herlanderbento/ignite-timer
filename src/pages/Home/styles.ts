@@ -110,7 +110,7 @@ export const StartCountDownButton = styled.button`
 
   &.disabled {
     opacity: 0.7;
-    cursor: not-allowed;
+    cursor: not-allowed !important;
     background: ${(props) => props.theme['green-700']} !important;
   }
 
